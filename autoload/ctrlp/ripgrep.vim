@@ -54,7 +54,7 @@ function! ctrlp#ripgrep#accept(mode, str)
   " open file
   let [path, line, column; rest] = split(a:str, ':')
   call ctrlp#acceptfile(a:mode, path)
-  call cursopen_file(a:mode, a:str)
+  call cursor(line, column)
 endfunction
 
 function! ctrlp#ripgrep#exit()
