@@ -32,7 +32,7 @@ function! ctrlp#ripgrep#exec(word)
   endif
 
   let s:list = split(
-    \ system( "rg --vimgrep " . s:pattern ), 
+    \ system( "rg --vimgrep" . ' ' . g:ctrlp_ripgrep_options . ' ' . s:pattern ), 
     \"\n"
     \ )
 
