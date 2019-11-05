@@ -1,6 +1,10 @@
 
 # ctrlp-ripgrep
 
+This repository is archived.  
+Integrated functionality into the following repositories https://github.com/halkn/ripgrep.vim.
+
+
 This is [ctrlp.vim][1] extension for grep using [ripgrep][2].
 
 ## Usage
